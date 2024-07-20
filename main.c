@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
+#include <stdbool.h>
 
 int main()
 {
-    printf("%s", "sfdgdfbxcb");
+
     return 0;
 }

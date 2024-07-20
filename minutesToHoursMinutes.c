@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-void minutesToHoursMinutes(int *p_minute, int *hour);
+void minutesToHoursMinutes(int *minute, int *hour);
 
 int main2()
 {
