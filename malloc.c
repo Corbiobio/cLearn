@@ -4,7 +4,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-int main()
+int mallsocTest1()
 {
     int *memory = NULL;
 
