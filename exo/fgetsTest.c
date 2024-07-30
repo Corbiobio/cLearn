@@ -3,9 +3,9 @@
 #include <math.h>
 #include <string.h>
 #include <stdbool.h>
+#include "./utilitises.h"
 
 int read(char *str, int length);
-int cleanBuffer();
 
 int fgetsTest()
 {
@@ -39,16 +39,6 @@ int read(char *str, int length)
             cleanBuffer();
         }
         return 1;
-    }
-    return 1;
-}
-
-int cleanBuffer()
-{
-    int c = 0;
-    while (c != '\n' && c != EOF)
-    {
-        c = getchar();
     }
     return 1;
 }
