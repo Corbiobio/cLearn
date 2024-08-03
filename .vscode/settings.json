@@ -9,6 +9,9 @@
         "math.h": "c",
         "string.h": "c",
         "stdbool.h": "c",
-        "utilitises.h": "c"
+        "utilitises.h": "c",
+        "cstdlib": "c",
+        "type_traits": "c",
+        "stack.h": "c"
     }
 }
